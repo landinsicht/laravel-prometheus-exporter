@@ -2,18 +2,17 @@
 
 A prometheus exporter for Laravel.
 
-[![Build Status](https://img.shields.io/travis/nepda/laravel-prometheus-exporter/master.svg?style=flat-square)](https://travis-ci.org/nepda/laravel-prometheus-exporter)
-[![StyleCI](https://styleci.io/repos/98516814/shield?branch=master)](https://styleci.io/repos/98516814)
+[![Build Status](https://img.shields.io/travis/landinsicht/laravel-prometheus-exporter/master.svg?style=flat-square)](https://travis-ci.org/landinsicht/laravel-prometheus-exporter)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Packagist Version](https://img.shields.io/packagist/v/nepda/laravel-prometheus-exporter.svg?style=flat-square)](https://packagist.org/packages/nepda/laravel-prometheus-exporter)
-[![Total Downloads](https://img.shields.io/packagist/dt/nepda/laravel-prometheus-exporter.svg?style=flat-square)](https://packagist.org/packages/nepda/laravel-prometheus-exporter)
+[![Packagist Version](https://img.shields.io/packagist/v/toubiz/laravel-prometheus-exporter.svg?style=flat-square)](https://packagist.org/packages/toubiz/laravel-prometheus-exporter)
+[![Total Downloads](https://img.shields.io/packagist/dt/toubiz/laravel-prometheus-exporter.svg?style=flat-square)](https://packagist.org/packages/toubiz/laravel-prometheus-exporter)
 
 This package is a wrapper bridging [jimdo/prometheus_client_php](https://github.com/Jimdo/prometheus_client_php) into Laravel.
 
 ## Installation
 
 ```bash
-composer require nepda/laravel-prometheus-exporter
+composer require toubiz/laravel-prometheus-exporter
 ```
 
 Register the service provider in app.php
