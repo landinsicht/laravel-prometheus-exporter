@@ -1,13 +1,11 @@
-# laravel-prometheus-exporter
-
-A prometheus exporter for Laravel.
+# A prometheus exporter for Laravel
 
 [![Build Status](https://img.shields.io/travis/landinsicht/laravel-prometheus-exporter/master.svg?style=flat-square)](https://travis-ci.org/landinsicht/laravel-prometheus-exporter)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Packagist Version](https://img.shields.io/packagist/v/toubiz/laravel-prometheus-exporter.svg?style=flat-square)](https://packagist.org/packages/toubiz/laravel-prometheus-exporter)
 [![Total Downloads](https://img.shields.io/packagist/dt/toubiz/laravel-prometheus-exporter.svg?style=flat-square)](https://packagist.org/packages/toubiz/laravel-prometheus-exporter)
 
-This package is a wrapper bridging [jimdo/prometheus_client_php](https://github.com/Jimdo/prometheus_client_php) into Laravel.
+This package is a wrapper bridging [endclothing/prometheus_client_php](https://github.com/endclothing/prometheus_client_php) into Laravel.
 
 ## Installation
 
