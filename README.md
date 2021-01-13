@@ -5,7 +5,7 @@
 [![Packagist Version](https://img.shields.io/packagist/v/toubiz/laravel-prometheus-exporter.svg?style=flat-square)](https://packagist.org/packages/toubiz/laravel-prometheus-exporter)
 [![Total Downloads](https://img.shields.io/packagist/dt/toubiz/laravel-prometheus-exporter.svg?style=flat-square)](https://packagist.org/packages/toubiz/laravel-prometheus-exporter)
 
-This package is a wrapper bridging [endclothing/prometheus_client_php](https://github.com/endclothing/prometheus_client_php) into Laravel.
+This package is a wrapper bridging [promphp/prometheus_client_php](https://github.com/promphp/prometheus_client_php) into Laravel.
 
 ## Installation
 
