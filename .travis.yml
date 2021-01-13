@@ -9,6 +9,8 @@ before_install:
   - echo "extension = redis.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
 before_script:
+  - pear config-set preferred_state beta
+  - yes '' | pecl install apcu
   - composer install
 
 script: ./vendor/bin/phpunit --configuration phpunit.xml
